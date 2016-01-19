@@ -106,27 +106,30 @@ input {
 	width: 100%;
 	padding: 5% 10%;
 }
-ul.nav {
+ul.nav { 	
 	list-style-type: none;
 	padding-top: 3%;
 
-	li:hover,
-	li:focus,
-	li:active,
+	li:hover {
+		border-bottom: 5px solid $drk-purp;
+	}
 	li:visited {
-		border-bottom: 4px solid $drk-purp;
+		border-bottom: 3px solid $bright-purp;
 	}
 
 	li {
-		display: inline-block;
-		padding: 2% 3%;
+		float: left;
+		padding: 3% 5%;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfffd+0,eaeaea+100 */
 		background: #fcfffd; /* Old browsers */
 		background: -moz-linear-gradient(top,  #fcfffd 0%, #eaeaea 100%); /* FF3.6-15 */
 		background: -webkit-linear-gradient(top,  #fcfffd 0%,#eaeaea 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to bottom,  #fcfffd 0%,#eaeaea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfffd', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
-
+		border-top: 1px solid $bg-light-grey;
+		border-left: 1px solid $bg-light-grey;
+		border-right: 1px solid $bg-light-grey;
+		border-bottom: 3px solid $drk-purp;
 		i {
 			display: block;
 		}

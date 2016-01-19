@@ -77,14 +77,13 @@ input {
 ul.nav {
   list-style-type: none;
   padding-top: 3%; }
-  ul.nav li:hover,
-  ul.nav li:focus,
-  ul.nav li:active,
+  ul.nav li:hover {
+    border-bottom: 5px solid #701DBB; }
   ul.nav li:visited {
-    border-bottom: 4px solid #701DBB; }
+    border-bottom: 3px solid #A161DB; }
   ul.nav li {
-    display: inline-block;
-    padding: 2% 3%;
+    float: left;
+    padding: 3% 5%;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfffd+0,eaeaea+100 */
     background: #fcfffd;
     /* Old browsers */
@@ -95,6 +94,10 @@ ul.nav {
     background: linear-gradient(to bottom, #fcfffd 0%, #eaeaea 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfffd', endColorstr='#eaeaea',GradientType=0 );
-    /* IE6-9 */ }
+    /* IE6-9 */
+    border-top: 1px solid #EBEBEB;
+    border-left: 1px solid #EBEBEB;
+    border-right: 1px solid #EBEBEB;
+    border-bottom: 3px solid #701DBB; }
     ul.nav li i {
       display: block; }
