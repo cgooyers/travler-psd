@@ -79,7 +79,8 @@ div.nav {
 	float: right;
 	padding-top: 1%;
 }
-ul.links {
+ul.links,
+ul.nav {
 
 	a {
 		color: $font-grey;
@@ -87,7 +88,8 @@ ul.links {
 	a:hover {
 		color: $purp;
 	}
-	
+}
+ul.links {
 	li {
 		display: inline;
 		float: left;
@@ -100,12 +102,18 @@ input {
 }
 ul.nav {
 	list-style-type: none;
+	padding: 3% 0 1% 0;
 
 	li {
 		display: inline-block;
 		padding: 2% 3%;
-		background: $bg-light-grey;
-		color: $drk-purp;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfffd+0,eaeaea+100 */
+		background: #fcfffd; /* Old browsers */
+		background: -moz-linear-gradient(top,  #fcfffd 0%, #eaeaea 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  #fcfffd 0%,#eaeaea 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  #fcfffd 0%,#eaeaea 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfffd', endColorstr='#eaeaea',GradientType=0 ); /* IE6-9 */
+
 		i {
 			display: block;
 		}
