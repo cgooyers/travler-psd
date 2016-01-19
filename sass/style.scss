@@ -5,6 +5,7 @@ $font-grey: #717171;
 $drk-purp: #701DBB;
 $bright-purp: #A161DB;
 $purp: #8F33C4;
+$darkest-purp: #451A4A;
 
 
 
@@ -33,7 +34,7 @@ section {
 
 section.menu {
 	.desk--two-thirds {
-		width: 65.66%;
+		width: 60.66%;
 	}
 }
 
@@ -56,6 +57,9 @@ ul.nav {
 		color: $purp;
 	}
 }
+i.fa-comment {
+	font-size: 250%;
+}
 
 // SECTION.MENU STYLES
 section.menu {
@@ -64,7 +68,6 @@ section.menu {
 		
 	}
 	i.fa-comment {
-		font-size: 250%;
 		vertical-align: super;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8f33c4+0,a161db+40,701dbb+100 */
 		color: #8f33c4; /* Old browsers */
@@ -135,3 +138,28 @@ ul.nav {
 		}
 	}// end of li
 }// end of ul.nav
+// END OF SECTION.MENU STYLES
+
+// START OF SECTION.HERO STYLES
+section.hero {
+	background: url('../assets/hero-squares.png') no-repeat bottom left;
+	padding: 15% 0;
+	margin-top: -0.5%;
+
+	.comment {
+		height: 100px;
+		width: 100px;
+		border-radius: 50%;
+		background: $darkest-purp;
+	}
+
+	i.fa-comment {
+		color: white;
+		position: relative;
+		top: 30%;
+		right: 15%;
+	}
+}
+
+
+// END OF SECTION.HERO STYLES

@@ -16,7 +16,7 @@ section {
   padding-top: 3%; }
 
 section.menu .desk--two-thirds {
-  width: 65.66%; }
+  width: 60.66%; }
 
 body {
   font-family: "Gill Sans", "Tahoma", sans-serif; }
@@ -32,10 +32,12 @@ ul.links a:hover,
 ul.nav a:hover {
   color: #8F33C4; }
 
+i.fa-comment {
+  font-size: 250%; }
+
 section.menu {
   background: #EBEBEB; }
   section.menu i.fa-comment {
-    font-size: 250%;
     vertical-align: super;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8f33c4+0,a161db+40,701dbb+100 */
     color: #8f33c4;
@@ -101,3 +103,18 @@ ul.nav {
     border-bottom: 3px solid #701DBB; }
     ul.nav li i {
       display: block; }
+
+section.hero {
+  background: url("../assets/hero-squares.png") no-repeat bottom left;
+  padding: 15% 0;
+  margin-top: -0.5%; }
+  section.hero .comment {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #451A4A; }
+  section.hero i.fa-comment {
+    color: white;
+    position: relative;
+    top: 30%;
+    right: 15%; }
