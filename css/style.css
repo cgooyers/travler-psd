@@ -1,6 +1,10 @@
 .grid {
   margin: 0 10%; }
 
+.grid--center >
+.grid__item {
+  text-align: center; }
+
 ul {
   margin: 0;
   padding: 0; }
@@ -46,7 +50,7 @@ section.menu {
     font-style: italic;
     color: #BABABA; }
 
-.nav {
+div.nav {
   float: right;
   padding-top: 1%; }
 
@@ -64,3 +68,13 @@ ul.links li {
 input {
   width: 100%;
   padding: 5% 10%; }
+
+ul.nav {
+  list-style-type: none; }
+  ul.nav li {
+    display: inline-block;
+    padding: 2% 3%;
+    background: #EBEBEB;
+    color: #701DBB; }
+    ul.nav li i {
+      display: block; }

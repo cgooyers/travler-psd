@@ -12,6 +12,12 @@ $purp: #8F33C4;
 .grid {
 	margin: 0 10%;
 }
+
+.grid--center >
+.grid__item {
+	text-align: center;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -68,8 +74,8 @@ section.menu {
 		font-style: italic;
 		color: $slogan;
 	}
-}
-.nav {
+}// END OF SECTION.MENU
+div.nav {
 	float: right;
 	padding-top: 1%;
 }
@@ -91,4 +97,17 @@ ul.links {
 input {
 	width: 100%;
 	padding: 5% 10%;
+}
+ul.nav {
+	list-style-type: none;
+
+	li {
+		display: inline-block;
+		padding: 2% 3%;
+		background: $bg-light-grey;
+		color: $drk-purp;
+		i {
+			display: block;
+		}
+	}
 }
