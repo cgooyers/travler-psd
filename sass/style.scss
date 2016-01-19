@@ -9,6 +9,10 @@ $purp: #8F33C4;
 
 
 // SET UP STYLES
+body {
+	margin: 0;
+}
+
 .grid {
 	margin: 0 10%;
 }
@@ -22,8 +26,9 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+
 section {
-	padding: 3% 0;
+	padding-top: 3%;
 }
 
 section.menu {
@@ -31,14 +36,25 @@ section.menu {
 		width: 65.66%;
 	}
 }
-a {
-	text-decoration: none;
-}
+
 
 // FONT STYLES
 body {
 	
 	font-family: "Gill Sans", "Tahoma", sans-serif
+}
+a {
+	text-decoration: none;
+}
+ul.links,
+ul.nav {
+
+	a {
+		color: $font-grey;
+	}
+	a:hover {
+		color: $purp;
+	}
 }
 
 // SECTION.MENU STYLES
@@ -74,20 +90,10 @@ section.menu {
 		font-style: italic;
 		color: $slogan;
 	}
-}// END OF SECTION.MENU
+}// end of section.menu
 div.nav {
 	float: right;
 	padding-top: 1%;
-}
-ul.links,
-ul.nav {
-
-	a {
-		color: $font-grey;
-	}
-	a:hover {
-		color: $purp;
-	}
 }
 ul.links {
 	li {
@@ -102,7 +108,14 @@ input {
 }
 ul.nav {
 	list-style-type: none;
-	padding: 3% 0 1% 0;
+	padding-top: 3%;
+
+	li:hover,
+	li:focus,
+	li:active,
+	li:visited {
+		border-bottom: 4px solid $drk-purp;
+	}
 
 	li {
 		display: inline-block;
@@ -117,5 +130,5 @@ ul.nav {
 		i {
 			display: block;
 		}
-	}
-}
+	}// end of li
+}// end of ul.nav

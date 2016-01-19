@@ -1,3 +1,6 @@
+body {
+  margin: 0; }
+
 .grid {
   margin: 0 10%; }
 
@@ -10,16 +13,24 @@ ul {
   padding: 0; }
 
 section {
-  padding: 3% 0; }
+  padding-top: 3%; }
 
 section.menu .desk--two-thirds {
   width: 65.66%; }
 
+body {
+  font-family: "Gill Sans", "Tahoma", sans-serif; }
+
 a {
   text-decoration: none; }
 
-body {
-  font-family: "Gill Sans", "Tahoma", sans-serif; }
+ul.links a,
+ul.nav a {
+  color: #717171; }
+
+ul.links a:hover,
+ul.nav a:hover {
+  color: #8F33C4; }
 
 section.menu {
   background: #EBEBEB; }
@@ -54,14 +65,6 @@ div.nav {
   float: right;
   padding-top: 1%; }
 
-ul.links a,
-ul.nav a {
-  color: #717171; }
-
-ul.links a:hover,
-ul.nav a:hover {
-  color: #8F33C4; }
-
 ul.links li {
   display: inline;
   float: left;
@@ -73,7 +76,12 @@ input {
 
 ul.nav {
   list-style-type: none;
-  padding: 3% 0 1% 0; }
+  padding-top: 3%; }
+  ul.nav li:hover,
+  ul.nav li:focus,
+  ul.nav li:active,
+  ul.nav li:visited {
+    border-bottom: 4px solid #701DBB; }
   ul.nav li {
     display: inline-block;
     padding: 2% 3%;
