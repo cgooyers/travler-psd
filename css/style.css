@@ -1,2 +1,50 @@
+.grid {
+  margin: 0 10%; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+section {
+  padding: 3% 0; }
+
+section.menu .desk--two-thirds {
+  width: 65.66%; }
+
+body {
+  font-family: "Gill Sans", "Tahoma", sans-serif; }
+
 section.menu {
-  background: #EFEFEF; }
+  background: #EBEBEB; }
+  section.menu i.fa-comment {
+    font-size: 250%;
+    vertical-align: super;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8f33c4+0,a161db+40,701dbb+100 */
+    color: #8f33c4;
+    /* Old browsers */
+    color: -moz-linear-gradient(-45deg, #8f33c4 0%, #a161db 40%, #701dbb 100%);
+    /* FF3.6-15 */
+    color: -webkit-linear-gradient(-45deg, #8f33c4 0%, #a161db 40%, #701dbb 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    color: linear-gradient(135deg, #8f33c4 0%, #a161db 40%, #701dbb 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8f33c4', endColorstr='#701dbb',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
+  section.menu .logo-wrap {
+    display: inline-block; }
+    section.menu .logo-wrap span.travel {
+      font-size: 175%;
+      color: #701DBB;
+      font-weight: bold;
+      letter-spacing: 2px; }
+  section.menu span.logo-slogan {
+    display: block;
+    font-size: 70%;
+    font-style: italic;
+    color: #BABABA; }
+
+ul.nav {
+  float: right; }
+  ul.nav li {
+    display: inline;
+    float: left; }
