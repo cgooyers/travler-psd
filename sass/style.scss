@@ -25,6 +25,9 @@ section.menu {
 		width: 65.66%;
 	}
 }
+a {
+	text-decoration: none;
+}
 
 // FONT STYLES
 body {
@@ -66,10 +69,26 @@ section.menu {
 		color: $slogan;
 	}
 }
-ul.nav {
+.nav {
 	float: right;
+	padding-top: 1%;
+}
+ul.links {
+
+	a {
+		color: $font-grey;
+	}
+	a:hover {
+		color: $purp;
+	}
+	
 	li {
 		display: inline;
 		float: left;
+		padding: 0 2%;
 	}
+}
+input {
+	width: 100%;
+	padding: 5% 10%;
 }
