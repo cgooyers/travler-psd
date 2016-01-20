@@ -146,6 +146,9 @@ section.map {
   section.map .one-third {
     width: 32.333%; }
 
+.icon-wrap {
+  text-align: center; }
+
 ul.icons li {
   list-style-type: none;
   display: inline-block;
@@ -162,7 +165,8 @@ ul.icons li {
   color: #717171; }
 
 h2 {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-size: 150%; }
 
 p {
   margin: 2% 0 15%; }
