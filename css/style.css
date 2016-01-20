@@ -4,10 +4,6 @@ body {
 .grid {
   margin: 0 10%; }
 
-.grid--center >
-.grid__item {
-  text-align: center; }
-
 ul {
   margin: 0;
   padding: 0; }
@@ -20,6 +16,14 @@ section.menu .desk--two-thirds {
 
 body {
   font-family: "Gill Sans", "Tahoma", sans-serif; }
+
+h1,
+h2,
+h3 {
+  font-weight: normal; }
+
+h1 {
+  margin: 2% 0 0; }
 
 a {
   text-decoration: none; }
@@ -37,6 +41,9 @@ i.fa-comment {
 
 section.menu {
   background: #EBEBEB; }
+  section.menu .grid--center >
+.grid__item {
+    text-align: center; }
   section.menu i.fa-comment {
     vertical-align: super;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8f33c4+0,a161db+40,701dbb+100 */
@@ -108,6 +115,9 @@ section.hero {
   background: url("../assets/hero-squares.png") no-repeat bottom left;
   padding: 15% 0;
   margin-top: -0.5%; }
+  section.hero .grid--center >
+.grid__item {
+    text-align: center; }
   section.hero .comment {
     height: 100px;
     width: 100px;
@@ -118,3 +128,41 @@ section.hero {
     position: relative;
     top: 30%;
     right: 15%; }
+
+section.map {
+  background: #2D2D2D;
+  color: white; }
+  section.map .title {
+    text-align: center; }
+  section.map h1 {
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    font-size: 205%; }
+  section.map span.slogan {
+    color: #8F33C4;
+    font-weight: normal; }
+  section.map img {
+    margin: 2% 0 4% 0; }
+  section.map .one-third {
+    width: 32.333%; }
+
+ul.icons li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 2% 3%; }
+  ul.icons li i {
+    font-size: 300%;
+    vertical-align: middle; }
+
+.line {
+  height: 2px;
+  width: 50px; }
+
+.line, li {
+  color: #717171; }
+
+h2 {
+  margin-bottom: 0; }
+
+p {
+  margin: 2% 0 15%; }
